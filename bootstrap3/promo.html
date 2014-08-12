@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>We Love It:-)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.mymin.css" rel="stylesheet">
+  <link href="css/mystyle.min.css" rel="stylesheet"> 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body id="promo">
+<!--logo and navigation section-->
+<!--******************************************************************
+*																	 *
+*			                  TOP                                    *
+*                                                                    *
+**********************************************************************-->
+
+<section class="container">
+	<div class="row">
+			<header class="clearfix">
+				<section id="logo">
+				<a href="index.html"><img src="images/JustU_Logo.jpg" alt="JustU...Control Your Digital Self"
+				title="JustU Home Page"></a>
+				</section><!--logo-->			
+				<!--options navbar-fixed-top navbar-inverse/fixed-bottom/navbar fixed-top-->
+				<div class="row">
+	<nav class="navbar" role="navigation">
+		<div class="navbar-header">
+          		<button id="mybutton" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+		               <span class="sr-only">Toggle navigation</span>
+		               <span class="glyphicon glyphicon-list"></span>
+		        </button>
+        </div><!--close navbar-header-->
+	        		<div id="navbarCollapse" class="collapse navbar-collapse navHeader Collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html" ><span class="menu" >Home</span></a></li>
+							<li><a href="product.html" ><span class="menu" >Product</span></a></li>
+							<li><a href="promo.html" ><span class="menu" >Promo</span></a></li>
+						<!--dropdown-->
+							<li id="highlight" class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="menu" >Team </span><span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+										<li class="changeColor"><a href="photos.html" tabindex="-1">Photos</a></li>
+										<li class="divider"></li>
+										<li class="changeColor"><a href="contribute.html" tabindex="-1">Contribute</a></li>
+										<li class="changeColor"><a href="meettheteam.html" tabindex="-1">Meet The Team</a></li>
+									</ul><!--Dropdown menu-->
+							</li>
+						</ul>
+			</div><!--close navbar collapse-->
+	</nav><!--close nav-->
+	</div>
+</header><!--header close-->
+</div><!--close row-->
+</section><!--close container-->
+
+<!--body-->
+<!--******************************************************************
+*																	 *
+*			                BODY                                     *
+*                                                                    *
+**********************************************************************-->
+<section class="container">
+<div class="jumbotron">
+	<video width="100%" height="300" controls="1" loop="false">
+		  <source src="video/justu test video.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+	   </video>
+</div>
+	<div class="content row">
+		<div class="col-md-8 col-sm-8">
+		<div class="myAbout">
+			<h1 class="visible-lg hidden-xs hidden-sm hidden-md" >The advantages of our application are:</h1>
+			<p>Below is a simple jQuery annimation script for a focus event.  I have it set so that it only displays at the largest viewport available.  There is no
+			hover function in touch screens.</p>
+			<p>If I have time I might be able to throw in a few addActionListeners to see if a button was pressed or something like that</p>
+			<p>You will notice however that the text remains on this page describing a feature that can no longer be seen at lower levels.</p>
+			<p>Not modulising the html leads to huge page files. Here on this page the article and the aside have two class associated with layouts for differing viewports.</p>
+			<p>The main section of text has a class of class="col-md-8 col-sm-8" 8 colums and a remaining 4 columns for the aside on medium (ipad landscape and portrait) to large devices and at smaller viewports the col-sm-8 gives a ratio of display for these devices and at smaller viewports the sidebar slots below the main content.</p>
+			<!--a sliding arrow to highlight bullet points only useful for hover events so only visible at large viewports-->
+			<div class="visible-lg hidden-xs hidden-sm hidden-md" style="max-width: 780px;" >
+					<!--item1-->
+					<a href="#"><div id="animateDiv" class="animateDiv"></a></div>
+				<div>
+						<ul id="hoverHere" style="float: left; padding-top: 8px; margin-left: 30%; list-style-type: none;">
+							<li><a href="#" style="text-decoration: none !important;" >Intuitive User Interface</a></li>
+						</ul>
+				</div><!--close inner div-->
+			</div>
+			<!--had to make two calls to class clearfix to get code to work-->
+			<div class="clearfix"></div>
+			<div class="clearfix"></div>
+			<!--outer div-->
+			<div class="visible-lg hidden-xs hidden-sm hidden-md" style="max-width: 780px;" >
+					<!--item2-->
+					<a href="#"><div id="Div" class="animateDiv"></a></div>
+					<div>
+						<ul id="hoverHereAgain" style="float: left; padding-top: 8px; margin-left: 30%; list-style-type: none;">
+							<li><a href="#" style="text-decoration: none !important;" >Intuitive User Interface</a></li>
+						</ul>
+					</div><!--close inner div-->
+			</div><!--close outer div-->
+			<div class="clearfix"></div>
+			<div class="clearfix"></div>
+			<!--outer div-->
+			<div class="visible-lg hidden-xs hidden-sm hidden-md" style="max-width: 780px;" >
+					<!--item3-->
+					<a href="#"><div id="Last" class="animateDiv"></a></div>
+					<div>
+						<ul id="hoverAgain" style="float: left; padding-top: 8px; margin-left: 30%; list-style-type: none;">
+							<li><a href="#" style="text-decoration: none !important;" >Intuitive User Interface</a></li>
+						</ul>
+					</div><!--close inner div-->
+			</div><!--close outer div-->
+			<div class="clearfix"></div>
+			<div class="clearfix"></div>
+			<!--a little div to make the page refresh on hover therefore resetting the arrows probably annoying for the user but-->
+			<a href="#"><div id="refresh" style="max-width: 750px; min-height: 20px; background: #fff;"></a></div>
+			<div class="clearfix"></div>
+			<p>This is a sample paragraph text.  As you can see from the font family I have used a google @import statement and in the css I have added the body,p,h1 through h6 as 'Drios'</p>
+			</div><!--close myAbout-->
+		</div><!--close article-->
+		
+<!--******************************************************************
+*																	 *
+*			               ASIDE                                     *
+*                                                                    *
+**********************************************************************-->
+			<div class="sidebar col col-md-4 col-sm-4">
+				<div class="aboutAside">
+					<h1>Heading 1</h1>
+					<h2>Heading 2</h2>
+					<h3>Heading 3</h3>
+					<h4>Heading 4</h4>
+					<h5>Heading 5</h5>
+					<h6>Heading 6</h6>
+				</div><!--close myAside class-->
+			</div><!--close aside-->
+	</div><!--close content row-->
+</section><!--container-->
+
+<!--******************************************************************
+*																	 *
+*			                  FOOTER                                 *
+*                                                                    *
+**********************************************************************-->
+
+<section class="container">
+	<footer class="row">
+		<nav class="col-xs-12">
+			<ul class="breadcrumb">
+			  <li><a href="meettheteam.html">Team</a></li>
+			  <li><a href="sitemap.html">Site Map</a></li>
+			  <li><a href="contact.html">Contact</li>
+			</ul>
+		</nav><!--close nav-->
+	</footer><!--footer-->
+</section><!--container-->
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myscript.min.js">
+</script>
+
+</body>
+</html>
